@@ -56,7 +56,7 @@ def test_cookie_login(browser):
         time.sleep(2)
 
         # 2. 读取Cookie文件
-        with open('json', 'r') as f:
+        with open('token.token.json', 'r') as f:
             cookies = json.load(f)
 
         # 3. 添加Cookie
